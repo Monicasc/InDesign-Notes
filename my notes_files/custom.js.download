@@ -1,0 +1,83 @@
+var $j = jQuery.noConflict();
+$j(document).ready(function($) { 
+
+	/** Edit Profile Tabs */
+	$('.tab_controls li a').click(function(e) {
+    	e.preventDefault();
+		$('.tab_controls li a').removeClass('active');
+		$(this).addClass('active');
+		var activeID = $(this).attr('id');
+		$('.tab').hide();
+		$('.'+activeID).show();
+	});
+
+	/** Initialize Superfish */
+	$('.menu').superfish({
+    	delay: 200,
+    	animation: {opacity:'show', height:'show'},
+    	speed: 'fast',
+    	autoArrows: false,
+    	dropShadows: false
+    }); 
+    
+    /** Generate Events Dropdown content */
+	//$.ajax({
+	//    url: ajax_info.site_url+'/wp-admin/admin-ajax.php?action=ww_ajax_hook',
+	//    type: 'POST',
+	//    dataType: 'html',
+	//    success: function (data) {
+	//    	var dropContent = data;
+	//   	var hoverDropdown = $('#navigation .dropdown.events ul');
+	//   	$('#navigation .dropdown.events span').after('<ul class="sub-menu">'+dropContent+'</ul>');
+	///   	$('#navigation .dropdown.events').hover(function(){
+	//    		$(this).toggleClass('sfHover');
+	//	    	$('#navigation .dropdown.events ul').show();
+	//	    	$('#navigation .dropdown.events ul').css('visibility','visible');
+	//   	})
+    //    },
+	//});
+	
+	/** Help Menu */
+    $('.help').click(function(e){
+    	e.preventDefault();
+	   $('.help_dropdown').fadeToggle(); 
+    });
+    
+    /** Mobile Menu */
+    $('.mobile_toggle').click(function(){
+	   $('.mobile_nav').slideToggle(); 
+    });
+    
+    /** Initialize Superfish */
+    $('.box_link').click(function(){
+	   var clickID = $(this).attr('id');
+	   $('.box_content').hide();
+	   $('.box_link').removeClass('active');
+	   $(this).addClass('active');
+	   $('.' + clickID).show();
+    });
+    
+    /** Share links dropdown */
+    $('.socials_list ul li.share').hover(function(){
+    	$('.share_wrapper').fadeToggle('slow');
+    });
+    
+});
+
+var $j = jQuery.noConflict();
+$j(window).load(function() { 
+	// Call fitVid before FlexSlider initializes, so the proper initial height can be retrieved.
+	$j('.flexslider').fitVids().flexslider({
+		slideshowSpeed: 4000,
+		animationDuration	: 400,
+		animation: 'fade',
+		video: true,
+		animationLoop: true,
+		smoothHeight: true,
+		controlNav: false,
+		start: function(){
+			$j('.flexslider ul.slides').css('visibility','visible');
+		}, 
+	});
+	
+});

@@ -1,0 +1,362 @@
+/*
+PINK Button Full Width
+*/
+a.button-pink {
+background-color: #f1bbb7;
+border: none;
+color: #fff;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+display: inline-block;
+font-weight: bold;
+font-size: 14px;
+margin: 4px 2px;
+width: 100%;
+}  /*
+BLUE Button Full Width
+*/
+a.button-blue {
+background-color: #7ab5c7;
+border: none;
+color: #fff;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+display: inline-block;
+font-weight: bold;
+font-size: 14px;
+margin: 4px 2px;
+width: 100%;
+}  /*
+GREEN Button Full Width
+*/
+a.button-green {
+background-color: #b9ddb7;
+border: none;
+color: #fff;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+display: inline-block;
+font-weight: bold;
+font-size: 14px;
+margin: 4px 2px;
+width: 100%;
+}  /*
+LGHT PINK Button Full Width
+*/
+a.button-lt-pink {
+background-color: #f5d5d3;
+border: none;
+color: #fff;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+display: inline-block;
+font-weight: bold;
+font-size: 14px;
+margin: 4px 2px;
+width: 100%;
+}  /*
+GREY Button Full Width
+*/
+a.button-grey {
+background-color: #474747;
+border: none;
+color: #fff;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+display: inline-block;
+font-weight: bold;
+font-size: 14px;
+margin: 4px 2px;
+width: 100%;
+}  /*
+LGHT GREY Button Full Width
+*/
+a.button-lt-grey {
+background-color: #c2c2c2;
+border: none;
+color: #fff;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+display: inline-block;
+font-weight: bold;
+font-size: 14px;
+margin: 4px 2px;
+width: 100%;
+}  /*
+PINK Button Not Full Width
+*/
+a.button-pink-small {
+background-color: #f1bbb7;
+border: none;
+color: #fff;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 14px;
+margin: 4px 2px;
+width: 100%;
+}  /*
+BLUE Button Not Full Width
+*/
+a.button-blue-small {
+background-color: #7ab5c7;
+border: none;
+color: #fff;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 14px;
+margin: 4px 2px;
+width: 100%;
+}  /*
+GREEN Button Full Width
+*/
+a.button-green-small {
+background-color: #b9ddb7;
+border: none;
+color: #fff;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 14px;
+margin: 4px 2px;
+width: 100%;
+}  /*
+LGHT PINK Button Full Width
+*/
+a.button-lt-pink-small {
+background-color: #f5d5d3;
+border: none;
+color: #fff;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 14px;
+margin: 4px 2px;
+width: 100%;
+}  /*
+UPDATED HEADINGS
+*/
+h1 {
+ font-size: 24px;
+ letter-spacing: 1.2px;
+ font-weight: normal;
+}  h2 {
+ font-size: 24px;
+ letter-spacing: 1px;
+ font-weight: normal;
+ text-align: center;
+ padding-top: 25px;
+ padding-bottom: 10px;
+}  h3 {
+ font-size: 20px;
+ font-weight: normal;
+ letter-spacing: .7px;
+}  h4 {
+ font-size: 18px;
+ font-weight: normal;
+}  h5 {
+ font-size: 14px;
+ font-weight: 600;
+ letter-spacing: .5px;
+ padding-top:15px;
+}  h6 {
+ font-size: 14px;
+ font-weight: 600;
+ letter-spacing: .5px;
+ text-decoration: underline;
+}  /*
+CENTERED DIV
+*/  .centered {
+ width: 400px;
+ margin: auto;
+}  /*
+START HERE IN TOP MENU
+*/
+#menu-item-4993 a {
+ color: #f1bbb7;
+ font-weight: bold;
+}  /*
+BOOK A CONSULTATION IN TOP MENU
+*/
+#menu-item-11270 a{
+ color:white;
+ font-weight:900;
+ background-color: #f1bbb7;
+ padding:15px;
+}
+#menu-item-11270 a:hover{
+ color:white;
+ font-weight:900;
+ background-color: #97cc97;
+ padding:15px;
+}  /*
+SHORTEN HEADER CTA
+*/
+.header-cta-container {
+ font-size: 30px;
+ letter-spacing: 4px;
+ margin: 25px auto 25px auto;
+ max-width: 100%;
+ padding: 40px 10px;
+ text-align: center;
+ text-transform: uppercase;
+ width: 700px;
+}  /*
+EDIT CAPTION
+*/
+.wp-caption-text {
+ font-size: 1.4rem;
+ font-weight: 300;
+ margin: 0;
+ text-align: center;
+ font-style: italic;
+ color: #7e7e7e;
+ padding-bottom: 10px;
+}  /*
+SOCIAL WARFARE CLICK TO TWEET
+*/
+.sw-click-to-tweet {
+ margin: 0px 0px !important;
+ margin-bottom: 30px !important;
+ background-color: #a5d9e7 !important;
+ border-radius: 0 !important;
+ border: none !important;
+ font-family: 'Lato';
+ color: #474747 !important;
+}
+.sw-click-to-tweet {
+ display: block;
+ margin: 15px 0;
+ padding: 15px 30px;
+ position: relative;
+}
+a.style1 .sw-click-to-tweet .sw-ctt-btn, a.style1 .sw-click-to-tweet .sw-ctt-text {
+ color: #fff;
+ text-decoration: none;
+ text-align:left;
+}
+.nc_socialPanel.swp_d_colorOutlines .twitter a, .wp-editor-container .sw-twitter:before, a.style1 .sw-click-to-tweet i.sw-twitter, a.style2 .sw-click-to-tweet i.sw-twitter, body .nc_socialPanel.swp_o_colorOutlines:hover .twitter a, html body .nc_socialPanel.swp_i_colorOutlines .twitter a:hover {
+ color: #fff;
+}  /*
+SOCIAL WARFARE SHARE BUTTONS
+*/  /*PINTEREST*/
+.swp_social_panel.swp_flat_fresh.swp_default_full_color .swp_pinterest, html body .swp_social_panel.swp_flat_fresh.swp_individual_full_color .swp_pinterest:hover, body .swp_social_panel.swp_flat_fresh.swp_other_full_color:hover .swp_pinterest:not(:hover)
+{
+ background: #7ab5c7;
+ border: 1px solid #7ab5c7;
+ border-radius: 0px !important;
+}  /*FACEBOOK*/
+.swp_social_panel.swp_flat_fresh.swp_default_full_color .swp_facebook, html body .swp_social_panel.swp_flat_fresh.swp_individual_full_color .swp_facebook:hover, body .swp_social_panel.swp_flat_fresh.swp_other_full_color:hover .swp_facebook:not(:hover){
+ background: #a5d9e7;
+ border: 1px solid #a5d9e7;
+ border-radius: 0px !important;
+}
+/*TWITTER*/
+.swp_social_panel.swp_flat_fresh.swp_default_full_color .swp_twitter, html body .swp_social_panel.swp_flat_fresh.swp_individual_full_color .swp_twitter:hover, body .swp_social_panel.swp_flat_fresh.swp_other_full_color:hover .swp_twitter:not(:hover){
+ background: #7ab5c7;
+ border: 1px solid #7ab5c7;
+ border-radius: 0px !important;
+}  /*
+CHANGE FONT OF MAILCHIMP OPT-INS
+*/
+input, select, textarea, input[type="submit"], button, input[type="button"], input[type="reset"], input[type="submit"], .button, .more-link, .entry-header .entry-meta, .site-footer {
+ font-family:'Open Sans', 'Arial', sans-serif
+}  /*
+DISCLOSURE STYLE
+*/  .disclosure {
+ padding: 10px;
+ background-color: #fcf2f1;
+ text-align: center;
+ border: 1px solid #f1bbb7;
+}
+/*
+SUNDAY SCRATCHES STYLE
+*/
+.sunday-scratches {
+ background-color: #f9f9f8;
+ border: 1px solid #eeebea;
+ padding: 10px;
+ font-style: italic;
+}  /*
+CONSULTATION PITCH BOX STYLE
+*/
+.consultation-pitch {
+ padding: 10px;
+ background-color: #edf7fa;
+ text-align: center;
+ border: 1px solid #7ab5c7;
+ font-style: italic;
+}  /*
+GDPR CONSENT SETTINGS
+*/
+.aio-gdpr-framework .menu-item .button{
+ background-color: #f1bbb7;
+ border-color: #f1bbb7;
+ font-size: 14px;
+}
+.aio-gdpr-framework #aio-gdpr-cookie-notice.notice__popup_style.notice__open{
+ background: #7ab5c7;
+ border-radius: 0px;
+}
+.aio-gdpr-framework #aio-gdpr-cookie-notice .header {
+ background: #7ab5c7;
+}
+.aio-gdpr-framework #aio-gdpr-cookie-notice .ctrls .ctrl{
+ background: #7ab5c7;
+ font-weight: 900;
+ color: #ffffff;
+}
+.aio-gdpr-framework #aio-gdpr-cookie-notice .ctrls .ctrl.ctrl__green {
+ background: #97cc97;
+ font-weight: 900;
+ color: #ffffff;
+}
+/*
+ALL IN ONE GDPR 051718
+*/  .aio-gdpr .privacy-center-grid li > a:hover{
+ background: #f1bbb7;
+}
+.aio-gdpr .button, .aio-gdpr button, .aio-gdpr input[type='button'], .aio-gdpr input[type='reset'], .aio-gdpr input[type='submit']{
+ background-color: #f1bbb7;
+ border: 0.1rem solid #f1bbb7;
+ border-radius: 0;
+}
+.aio-gdpr a{
+ color: #7ab5c7;
+}  /* PINK LINE PARAGRAPH
+ */
+.pink-line{
+ border-left: 4px solid #f1bbb7;
+ padding:10px;
+ font-style:italic;
+}  /* SHOPR TEXT */
+a.shopr{
+ text-decoration: none;
+}
+.shopr_mosaic .shopr_product_title{
+ font-weight: 600;
+}
+h4.shopr_product_title{
+ hyphens: none;
+}
